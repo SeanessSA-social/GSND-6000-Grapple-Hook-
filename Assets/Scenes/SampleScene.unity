@@ -374,6 +374,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &698376925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5997735235445149378, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+  m_PrefabInstance: {fileID: 249137713447365909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &698376928
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698376925}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &952690273
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +963,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3796919319709007977, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+      value: -2.3165941
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796919319709007977, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+      value: -1.5581927
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796919319709007977, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: 2.3918161
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796919319709007977, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: -1.5836763
+      objectReference: {fileID: 0}
     - target: {fileID: 5997735235445149378, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
       propertyPath: m_Name
       value: GrapplePoint
@@ -982,7 +1030,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5997735235445149378, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 698376928}
   m_SourcePrefab: {fileID: 100100000, guid: f6a80e0576b102b498a2fb288f826b2b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
